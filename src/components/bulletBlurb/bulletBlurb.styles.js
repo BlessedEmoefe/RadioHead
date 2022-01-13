@@ -1,9 +1,8 @@
 import styled from "styled-components";
 import { colors } from "../../infrastructure/theme/colors";
-import { fontSizes, fontWeights } from "../../infrastructure/theme/fonts";
+import { fontSizes } from "../../infrastructure/theme/fonts";
 import { lineHeights } from "../../infrastructure/theme/lineHeight";
 import { FlexibleDiv } from "../flexibleDiv/flexibleDiv.component";
-import { Text } from "../typography/text.component";
 
 export const BlurbContainer = styled(FlexibleDiv)`
   width: 40%;
