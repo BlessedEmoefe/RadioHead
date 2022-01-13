@@ -13,13 +13,17 @@ import { BottomSection } from "./bottomSection/bottomSection.component";
 
  const Footer = () => {
   return (
-    <FlexibleDiv boxedLayout background={colors.black} paddingVertical="3rem">
-      <FlexibleDiv alignItems="flex-start" paddingVertical="0" >
-        <LeftSection />
+    <FlexibleDiv paddingVertical="0" background={colors.bg}>
+      <FlexibleDiv
+        alignItems="flex-start"
+        background={colors.secondary}
+        boxedLayout
+        paddingVertical="3rem"
+      >
         <MiddleSection />
-        {/* <RightSection /> */}
+        <LeftSection />
       </FlexibleDiv>
-      <FlexibleDiv justifyContent="center" paddingVertical="0" >
+      <FlexibleDiv justifyContent="center"  paddingVertical="0">
         <BottomSection />
       </FlexibleDiv>
     </FlexibleDiv>

@@ -6,36 +6,29 @@ import { Spacer } from "../../components/spacer/spacer.component";
 
 /*importing Home sections*/
 import Hero from "./Sections/Hero/hero.section";
-import WhyChooseUs from "./Sections/WhyChooseUs/whyChooseUs.section";
-import InternWithUs from "./Sections/InternWithUs/internWithUs.section";
-import Testimonials from "./Sections/Testimonials/testimonials.section";
-import Partners from "./Sections/Partners/partners.section";
+import WhyChooseUs from "./Sections/WhyRadioHead/WhyRadioHead.section";
+import LovedMusic from "./Sections/LovedMusic/LovedMusic.section";
 import Clients from "./Sections/Clients/clients.section";
-import ContactUs from "./Sections/ContactUs/contactUs.section"
-import OurProducts from "./Sections/OurProducts/ourProducts.section";
-import AboutItechnology from "./Sections/AboutItechnology/aboutItechnology.section";
+import { colors } from "../../infrastructure/theme/colors";
+import Playlist from "./Sections/Playlist/Playlist.section";
+import WhyRadioHead from "./Sections/WhyRadioHead/WhyRadioHead.section";
 
 const Home = () => {
   return (
-    <FlexibleDiv flexDirection="column" paddingVertical="0">
+    <FlexibleDiv
+      flexDirection="column"
+      paddingVertical="0"
+      background={colors.bg}
+    >
       <Spacer size="small" />
       <Hero />
-      <Spacer size="medium" />
-      <AboutItechnology />
-      <Spacer size="medium" />
-      <WhyChooseUs />
-      <Spacer size="medium" />
-      <InternWithUs />
-      <Spacer size="medium" />
       <Clients />
       <Spacer size="medium" />
-      <Testimonials />
+      <LovedMusic />
       <Spacer size="medium" />
-      <Partners />
+      <Playlist />
       <Spacer size="medium" />
-      <OurProducts />
-      <Spacer size="medium" />
-      <ContactUs />
+      <WhyRadioHead />
     </FlexibleDiv>
   );
 };

@@ -3,5 +3,5 @@ import { colors } from "../../../infrastructure/theme/colors";
 import { FlexibleDiv } from "../../flexibleDiv/flexibleDiv.component";
 
 export const BottomSectionWrapper = styled(FlexibleDiv)`
-border-top:1px solid ${colors.iconColor};
+padding:0.7rem 0;
 `;

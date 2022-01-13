@@ -18,21 +18,21 @@ export const BottomSection = () => {
     instagram = "#",
     youtube = "#";
   return (
-    <BottomSectionWrapper flexDirection="column" paddingVertical="1.5em 1rem">
-      <FlexibleDiv width="auto" paddingVertical="0" justifyContent="center">
+    <BottomSectionWrapper
+      flexDirection="column"
+      justifyContent="center"
+      paddingVertical="0"
+    >
+      <FlexibleDiv
+        width="auto"
+        paddingVertical="0"
+        justifyContent="center"
+      >
         <SocialIcon
+          instagram={instagram}
           facebook={facebook}
           twitter={twitter}
-          linkedin={linkedin}
-          instagram={instagram}
-          youtube={youtube}
         />
-      </FlexibleDiv>
-      <Spacer />
-      <FlexibleDiv justifyContent="center" paddingVertical="0">
-        <Text color="white">
-          © ITechnology Terrain Limited | All Rights Reserved. | 2021
-        </Text>
       </FlexibleDiv>
     </BottomSectionWrapper>
   );

@@ -2,7 +2,7 @@ import React from "react";
 import { Link } from "react-router-dom";
 
 /*Importing logo image and styles*/
-import logo from "../../../../assets/images/logo.png";
+import logo from "../../../../assets/images/logo.svg";
 import { LogoWrapper } from "./logo.styles";
 
 export const LogoSection = () => {

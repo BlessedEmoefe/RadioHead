@@ -1,15 +1,9 @@
 export const colors = {
-  bg: {
-    primary: "#f5f5f5",
-    secondary: "#FFEDC2",
-  },
-  primary: "#004CFF",
-  // secondary: "#FFBE0A",
-  secondary: "#004CFF",
+  primary: "#7971E9",
+  secondary: "#293942",
+  bg: "#1B262C",
   iconColor: "#a3a3a3",
-  text: {
-    strong: "#141414",
-  },
+  text: "#F9F8FF80",
   white: "#fff",
   black: "#000",
   transparent: "transparent",

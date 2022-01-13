@@ -1,10 +1,8 @@
 import React from "react";
 import { FlexibleDiv } from "../flexibleDiv/flexibleDiv.component";
 import {
-  RiFacebookCircleLine as FacebookIcon,
-  RiLinkedinLine as LinkedInIcon,
-  RiYoutubeLine as YoutubeIcon,
-  RiTwitterLine as TwitterIcon,
+  RiFacebookFill as FacebookIcon,
+  RiTwitterFill as TwitterIcon,
   RiInstagramLine as InstagramIcon,
 } from "react-icons/ri";
 import { SocialIconWrapper } from "./socialIcon.styles";
@@ -13,18 +11,25 @@ import { useFetch } from "../hooks/useFetch";
 export const SocialIcon = ({
   facebook,
   twitter,
-  linkedin,
   instagram,
   color,
   fontSize,
-  youtube,
 }) => {
   return (
     <SocialIconWrapper
-      paddingVertical="0.2rem"
+      paddingVertical="0"
       resFlexDirection="row"
       resWidth="auto"
+      
     >
+      {instagram ? (
+        <a href={instagram}>
+          <InstagramIcon
+            fontSize={fontSize ? fontSize : "16px"}
+            color={color ? color : "white"}
+          />
+        </a>
+      ) : null}
       {facebook ? (
         <a href={facebook}>
           <FacebookIcon
@@ -41,24 +46,6 @@ export const SocialIcon = ({
           />
         </a>
       ) : null}
-      {instagram?<a href={instagram}>
-        <InstagramIcon
-          fontSize={fontSize ? fontSize : "16px"}
-          color={color ? color : "white"}
-        />
-      </a>:null}
-     {linkedin? <a href={linkedin}>
-        <LinkedInIcon
-          fontSize={fontSize ? fontSize : "16px"}
-          color={color ? color : "white"}
-        />
-      </a>:null}
-    {youtube?  <a href={youtube}>
-        <YoutubeIcon
-          fontSize={fontSize ? fontSize : "16px"}
-          color={color ? color : "white"}
-        />
-      </a>:null}
     </SocialIconWrapper>
   );
 };

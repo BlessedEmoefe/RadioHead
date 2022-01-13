@@ -9,7 +9,7 @@ export const LinkSection = ({ displayNav }) => {
   return (
     <LinkSectionWrapper display={displayNav ? true : false}>
       <PageLinkSection  />
-      <ActionSection  />
+      {/* <ActionSection  /> */}
     </LinkSectionWrapper>
   );
 };

@@ -5,6 +5,7 @@ export const NavIconWrapper = styled.div`
   display: none;
 
   @media (max-width: 970px) {
+    margin:1rem 0;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -13,6 +14,6 @@ export const NavIconWrapper = styled.div`
     border-radius: 5px;
     transition: 0.3s;
     color: ${colors.white};
-    background: ${colors.black};
+    background: ${colors.primary};
   }
 `;

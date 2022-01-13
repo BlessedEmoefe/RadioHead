@@ -56,7 +56,7 @@ export const LeftSection = () => {
   ];
 
   return (
-    <LeftSectionWrapper paddingVertical="0" alignItems="flex-start">
+    <LeftSectionWrapper paddingVertical="0" alignItems="flex-start" justifyContent="center">
       {linkData.map(({ title, links }) => (
         <FlexibleDiv
           paddingVertical="0"

@@ -4,7 +4,7 @@ import { fontSizes } from "../../infrastructure/theme/fonts";
 
 export const HeaderContainer = styled.div`
   width: 100%;
-  background-color: ${colors.bg.secondary};
+  background-color: ${colors.secondary};
   position: fixed;
   top: ${({ hideHeader }) => (hideHeader ? "-16rem" : "0")};
   transition: top 0.5s ease;

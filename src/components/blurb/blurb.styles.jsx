@@ -10,21 +10,21 @@ export const BlurbContainer = styled.div`
   align-items: ${({ alignItems }) => (alignItems ? alignItems : "center")};
   h1 {
     font-size: ${fontSizes.h1};
-    color: ${({ titleColor }) => (titleColor ? titleColor : colors.black)};
+    color: ${({ titleColor }) => (titleColor ? titleColor : colors.white)};
     line-height: 4rem;
     text-align: ${({ textAlign }) => (textAlign ? textAlign : "center")};
     margin: 0 0 0.7rem 0;
   }
   h2 {
     font-size: ${fontSizes.h2};
-    color: ${({ titleColor }) => (titleColor ? titleColor : colors.black)};
+    color: ${({ titleColor }) => (titleColor ? titleColor : colors.white)};
     line-height: ${lineHeights.title};
     text-align: ${({ textAlign }) => (textAlign ? textAlign : "center")};
     margin: 0 0 0.7rem 0;
   }
   h3 {
     font-size: ${fontSizes.h3};
-    color: ${({ titleColor }) => (titleColor ? titleColor : colors.black)};
+    color: ${({ titleColor }) => (titleColor ? titleColor : colors.white)};
     line-height: ${lineHeights.title};
     text-align: ${({ textAlign }) => (textAlign ? textAlign : "center")};
     margin: 0 0 0.7rem 0;
@@ -32,7 +32,7 @@ export const BlurbContainer = styled.div`
   h4 {
     font-size: ${fontSizes.h4};
     color: ${({ titleColor }) => (titleColor ? titleColor : colors.black)};
-    line-height: ${lineHeights.subTitle};
+    /* line-height: ${lineHeights.subTitle}; */
     text-align: ${({ textAlign }) => (textAlign ? textAlign : "center")};
     margin: 0 0 0.7rem 0;
   }
@@ -50,7 +50,7 @@ export const BlurbContainer = styled.div`
       paragraphFontSize ? paragraphFontSize : "17px"};
     text-align: ${({ textAlign }) => (textAlign ? textAlign : "center")};
     color: ${({ paragraphColor }) =>
-      paragraphColor ? paragraphColor : colors.text.strong};
+      paragraphColor ? paragraphColor : colors.text};
     line-height: ${lineHeights.paragraph};
     margin: 0;
     padding: 0;

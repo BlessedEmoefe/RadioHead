@@ -17,8 +17,9 @@ export const Wrapper = styled.div`
     align-items: center;
     overflow: hidden;
     padding: 1rem;
-    button {
+    div {
       width: 100%;
+
     }
     .spacer {
       padding-left: 0;
