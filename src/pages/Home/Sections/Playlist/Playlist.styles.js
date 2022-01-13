@@ -11,5 +11,10 @@ export const ImageCard = styled(FlexibleDiv)`
   margin-bottom: 0.5rem;
   background: red;
   overflow: hidden;
-  background:red;
+  background: red;
+
+  @media (max-width: 1050px) {
+    min-width:300px;
+    width:70%;
+  }
 `;

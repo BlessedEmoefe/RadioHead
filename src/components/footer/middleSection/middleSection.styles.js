@@ -1,8 +1,5 @@
 import styled from "styled-components";
-import { colors } from "../../../infrastructure/theme/colors";
-import { Button } from "../../button/button.component";
 import { FlexibleDiv } from "../../flexibleDiv/flexibleDiv.component";
-import { Input } from "../../input/input.component";
 
 export const MiddleSectionWrapper = styled(FlexibleDiv)`
   width: 30%;
@@ -10,7 +7,7 @@ export const MiddleSectionWrapper = styled(FlexibleDiv)`
   margin-right: 4rem;
 
   @media (max-width: 1280px) {
-    /* width: 50%; */
+    width: 50%;
     min-width: 0;
     margin-bottom: 1.7rem;
     margin-right: 0;

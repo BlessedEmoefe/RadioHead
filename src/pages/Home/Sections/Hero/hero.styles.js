@@ -10,5 +10,5 @@ background-repeat:round;
 `;
 
 export const AppButton = styled.img`
-
+min-width:100px;
 `;

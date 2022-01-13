@@ -2,13 +2,9 @@ import React from "react";
 import { FlexibleDiv } from "../../flexibleDiv/flexibleDiv.component";
 import { Text } from "../../typography/text.component";
 import { Spacer } from "../../spacer/spacer.component";
-import { Button } from "../../button/button.component";
 import { colors } from "../../../infrastructure/theme/colors";
-import { Input } from "../../input/input.component";
 import {
   MiddleSectionWrapper,
-  FormInput,
-  FormButton,
 } from "./middleSection.styles";
 import { LogoSection } from "../../header/Sections/LogoSection/logo.section";
 import { fontSizes } from "../../../infrastructure/theme/fonts";

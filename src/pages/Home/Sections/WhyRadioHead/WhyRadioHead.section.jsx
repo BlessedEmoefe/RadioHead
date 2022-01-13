@@ -34,7 +34,7 @@ const WhyRadioHead = () => {
     <Wrapper>
       <FlexibleDiv boxedLayout className="wrapper" alignItems="flex-end">
         <HeaderText>Why radiohead?</HeaderText>
-        <Spacer />
+        <Spacer/>
         <ContentContainer paddingvertical="0">
           {bulletBlurbData.map(({ title, description }) => (
             <BulletBlurb title={title} description={description} />

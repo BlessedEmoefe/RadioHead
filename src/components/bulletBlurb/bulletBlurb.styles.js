@@ -9,9 +9,10 @@ export const BlurbContainer = styled(FlexibleDiv)`
   width: 40%;
   flex-direction: column;
   align-items: flex-start;
-  margin-bottom:2.5rem;
+  margin-bottom: 2.5rem;
   @media (max-width: 1050px) {
     max-width: 95vw;
+    width: 100%;
   }
 `;
 
